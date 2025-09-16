@@ -1,9 +1,6 @@
 /*  your css code here. If applicable */
-#container{
+body{
 	background-color: rgb(204, 204, 204);
-	height:800px;
-	width: 610px;
-	align-items: center;
 }
 #playlist{
 	margin-left:20px;
@@ -20,7 +17,7 @@ h1, h2{
 #player{
 	margin-left:60px;
 	margin-right:60px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	height:520px;
 	width:490px;
 	border:1px solid black;
@@ -39,5 +36,6 @@ li{
 	list-style-type: none
 }
 a{
+	color:black;
 	text-decoration-line: none
 }
