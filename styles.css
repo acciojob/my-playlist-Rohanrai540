@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+#container{
+	background-color: rgb(204, 204, 204);
+	height:800px;
+	width: 610px;
+	align-items: center;
+}
+#playlist{
+	margin-left:20px;
+	margin-right:20px;
+	background-color:white;
+	border:1px solid black;
+	border-radius:5px;
+	height: 140px;
+	width: 570px
+}
+h1, h2{
+	text-align: center;
+}
+#player{
+	margin-left:60px;
+	margin-right:60px;
+	background-color: white;
+	height:520px;
+	width:490px;
+	border:1px solid black;
+	border-radius:5px;
+}
+video{
+	margin:10px 10px 0px 10px;
+	width:470px
+}
+audio{
+	margin:0px 10px 10px 10px;
+	width:470px;
+	height:35px
+}
+li{
+	list-style-type: none
+}
+a{
+	text-decoration-line: none
+}
